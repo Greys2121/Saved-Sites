@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000; /* Set background color to black */
+            color: #fff; /* Set text color to white */
+            text-align: center;
+        }
+        #pageTitle {
+            font-size: 3em;
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background for better visibility */
+        }
+        #buttonContainer {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            position: relative;
+        }
+        .actionButton {
+            margin: 0 10px;
+            padding: 10px;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+        #goBackButton {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="pageTitle">GAMES</div>
+    <div id="buttonContainer">
+        <button class="actionButton" onclick="redirectToGame1()">ubggames.com</button>
+        <button class="actionButton" onclick="redirectToGame1()">ubgfun.github.io</button>
+        <button id="goBackButton" onclick="goBack()">Go Back</button>
+    </div>
+
+    <script>
+        function redirectToGame1() {
+            // Redirect to the website for Game 1
+            window.location.href = 'https://ubggames.com';
+
+        }
+
+        function redirectToGame1() {
+            // Redirect to the website for Game 1
+            window.location.href = 'https://ubgfun.github.io;
+
+        }
+    </script>
+</body>
+</html>
